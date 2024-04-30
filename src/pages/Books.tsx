@@ -70,7 +70,7 @@ export default function Books() {
       {toShowBooks.length==0 && firstLoad && isLoading && paginationType=="pagination" &&<div className="text-center text-2xl text-black">Loading ...</div>}
       {currentPageResults.length==0 && !firstLoad.current && !isLoading &&<div className="text-center text-2xl text-black text-bold">No books found 🙁🙁</div>}
     </BookWrapper>
-      {!isLoading && paginationType=="pagination" && <Pagination/>}
+      {paginationType=="pagination" && <div className={isLoading?"opacity-40":""}><Pagination/></div>}
     </>
   )
 }
