@@ -1,0 +1,57 @@
+#root {
+  margin: 0 auto;
+  padding: min(2rem,2vw);
+  text-align: center;
+}
+
+.loading-anim {
+  background: linear-gradient(
+    120deg,
+    rgb(229, 229, 229) 30%,
+    rgb(255, 255, 255) 38%,
+    rgb(242, 242, 242) 40%,
+    rgb(229, 229, 229) 48%
+  );
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: loading 2s infinite;
+
+  -webkit-animation: loading 2s ease infinite;
+  -moz-animation: loading 2s ease infinite;
+  animation: loading 2s ease infinite;
+}
+
+@-webkit-keyframes loading {
+  100%{
+    background-position: -100% 0;
+  }
+}
+@-moz-keyframes loading {
+  100%{
+    background-position: -100% 0;
+  }
+}
+@keyframes loading {
+  100%{
+    background-position: -100% 0;
+  }
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 60px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side,#000 90%,#0000);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: l3 1s infinite linear;
+}
+@keyframes l3 {
+    20%{background-position:0%   0%, 50%  50%,100%  50%}
+    40%{background-position:0% 100%, 50%   0%,100%  50%}
+    60%{background-position:0%  50%, 50% 100%,100%   0%}
+    80%{background-position:0%  50%, 50%  50%,100% 100%}
+}

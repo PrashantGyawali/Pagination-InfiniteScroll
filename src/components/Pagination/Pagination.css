@@ -1,0 +1,16 @@
+.pagenumber{
+    border: solid 1px rgb(174, 174, 174) !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    cursor: pointer;
+    font-size: 15px; /* Adjust font size based on box width */
+    width:40px;
+    background-color: rgb(243, 243, 243);
+    color: black;
+    text-align: center;
+}
+.pagenumber:hover{
+transform: scale(1.1);
+}
