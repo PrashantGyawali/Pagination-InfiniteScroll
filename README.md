@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Pagination and Infinite Scroll
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Created UI in react with vite and typescript
+Created a dockerized node js api with express js, mongoose,typescript and mongodb as database
 
-Currently, two official plugins are available:
+## Images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Loading Animation
 
-## Expanding the ESLint configuration
+![Initial Loading Animation](./public/Loading1.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Search and Filtering
 
-- Configure the top-level `parserOptions` property like this:
+![Search and filtering](./public/Searching.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Infinte Scroll Loading Animation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Infinte Scroll Loading Animation](./public/Loading1.png)
+
+### Pagination
+
+![Pagination](./public/Pagination1.png)
+
+### Pagination Loading
+
+![Pagination](./public/Pagination2.png)
