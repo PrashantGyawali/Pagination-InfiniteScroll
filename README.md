@@ -15,7 +15,7 @@ Created a dockerized node js api with express js, mongoose,typescript and mongod
 
 ### Infinte Scroll Loading Animation
 
-![Infinte Scroll Loading Animation](./public/Loading1.png)
+![Infinte Scroll Loading Animation](./public/Loading2.png)
 
 ### Pagination
 
